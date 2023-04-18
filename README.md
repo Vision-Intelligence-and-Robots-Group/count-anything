@@ -25,4 +25,4 @@ Download the [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/s
 You can run [vis_FSC.ipynb](vis_FSC.ipynb) for FSC-147 or [vis_coco.ipynb](vis_coco.ipynb) for coco.
 
 ## Acknowledgement
-We thank facebookresearch for their segment-anything model(https://github.com/facebookresearch/segment-anything),cvlab-stonybrook for their LearningToCountEverything project(https://github.com/cvlab-stonybrook/LearningToCountEverything) and coco datasets(https://cocodataset.org/).
+We thank facebookresearch for their segment-anything model [[project]](https://github.com/facebookresearch/segment-anything), cvlab-stonybrook for their Learning To Count Everything [[project]](https://github.com/cvlab-stonybrook/LearningToCountEverything) and coco [[datasets]](https://cocodataset.org/).
