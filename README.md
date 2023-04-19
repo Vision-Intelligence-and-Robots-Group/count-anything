@@ -1,5 +1,7 @@
 # count-anything
 An empirical study on few-shot counting using segment anything (SAM)
+ 
+[Online Demo](https://huggingface.co/spaces/nebula/counting-anything)
 
 Meta AI recently released the Segment Anything model [[SAM]](https://github.com/facebookresearch/segment-anything), which has garnered attention due to its impressive performance in class-agnostic segmenting. In this study, we explore the use of SAM for the challenging task of few-shot object counting, which involves counting objects of an unseen category by providing a few bounding boxes of examples. We compare SAM's performance with other few-shot counting methods and find that it is currently unsatisfactory without further fine-tuning, particularly for small and crowded objects.
 
