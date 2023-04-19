@@ -1,5 +1,5 @@
 # count-anything
-an empirical study on few-shot counting using segment anything (SAM)
+An empirical study on few-shot counting using segment anything (SAM)
 ![image](example.png)
 ## Install
 Install python dependencies. We use conda and python 3.10.4 and PyTorch 1.13.1
