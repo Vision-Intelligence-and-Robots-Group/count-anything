@@ -50,7 +50,7 @@ If you find the code useful, please cite:
 @article{ma2023countanything,
   title={CAN SAM COUNT ANYTHING? AN EMPIRICAL STUDY ON SAM COUNTING},
   author={Ma, Zhiheng and Hong, Xiaopeng and Shangguan Qinnan},
-  journal={arXiv preprint arXiv:2304.xxxxx},
+  journal={arXiv preprint arXiv:2304.10817},
   year={2023}
 }
 ```
