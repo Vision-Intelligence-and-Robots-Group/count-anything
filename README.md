@@ -2,6 +2,7 @@
 An empirical study on few-shot counting using segment anything (SAM)
  
 [Online Demo](https://huggingface.co/spaces/nebula/counting-anything)
+[arXiv](http://arxiv.org/abs/2304.10817)
 
 Meta AI recently released the Segment Anything model [[SAM]](https://github.com/facebookresearch/segment-anything), which has garnered attention due to its impressive performance in class-agnostic segmenting. In this study, we explore the use of SAM for the challenging task of few-shot object counting, which involves counting objects of an unseen category by providing a few bounding boxes of examples. We compare SAM's performance with other few-shot counting methods and find that it is currently unsatisfactory without further fine-tuning, particularly for small and crowded objects.
 
@@ -14,7 +15,7 @@ Install python dependencies. We use conda and python 3.10.4 and PyTorch 1.13.1
 - For FSC-147:
     Images can be downloaded from here: https://drive.google.com/file/d/1ymDYrGs9DSRicfZbSCDiOu0ikGDh5k6S/view?usp=sharing
 
-- For coco val2017:
+- For COCO val2017:
     Images can be downloaded from here: https://cocodataset.org/
 ## Comparison Results
 
@@ -33,7 +34,7 @@ Download the [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/s
 python test_FSC.py --data_path <FSC-147 dataset path> --model_path <path to ViT-H SAM model>
 ```
 
-- For coco val2017:
+- For COCO val2017:
 ```
 python test_coco.py --data_path <coco val2017 dataset path\> --model_path <path to ViT-H SAM model>
 ```
